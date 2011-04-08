@@ -1,13 +1,11 @@
 package com.madgag.hamcrest;
 
-import org.hamcrest.Description;
-import org.hamcrest.Factory;
-import org.hamcrest.Matcher;
-import org.hamcrest.TypeSafeMatcher;
+import org.hamcrest.*;
 
 import java.io.File;
 
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.CoreMatchers.equalTo;
+
 
 public class FileLengthMatcher extends TypeSafeMatcher<File> {
 
