@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.madgag</groupId>
     <artifactId>madgag-hamcrest-matchers</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <packaging>jar</packaging>
     <name>madgag Hamcrest Matchers</name>
     <description>Just some Hamcrest matchers I find useful</description>
