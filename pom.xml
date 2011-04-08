@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+    <groupId>com.madgag</groupId>
+    <artifactId>madgag-hamcrest-matchers</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>madgag Hamcrest Matchers</name>
+    <description>Just some Hamcrest matchers I find useful</description>
+    <url>https://github.com/rtyley/madgag-hamcrest-matchers</url>
+
+    <properties>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+    <licenses>
+        <license>
+            <name>GPL v3</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git@github.com:rtyley/madgag-hamcrest-matchers.git</connection>
+        <developerConnection>scm:git:git@github.com:rtyley/madgag-hamcrest-matchers.git</developerConnection>
+        <url>git@github.com:rtyley/madgag-hamcrest-matchers.git</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>roberto</id>
+            <name>Roberto Tyley</name>
+            <timezone>0</timezone>
+            <url>https://github.com/rtyley</url>
+        </developer>
+    </developers>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest-all</artifactId>
+                <version>1.1</version>
+            </dependency>
+    </dependencies>
+</project>
