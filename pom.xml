@@ -11,7 +11,7 @@
     <version>0.4-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>madgag Hamcrest Matchers</name>
-    <description>Just some Hamcrest matchers I find useful.</description>
+    <description>Some Hamcrest matchers I find useful.</description>
     <url>https://github.com/rtyley/madgag-hamcrest-matchers</url>
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
