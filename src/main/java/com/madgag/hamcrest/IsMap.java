@@ -25,6 +25,14 @@ public class IsMap<K,V> extends TypeSafeMatcher<Map<K,V>> {
 		return new IsMap<K,V>(false).and(keyConstraint, valueConstraint);
 	}
 
+    public static <K,V> IsMap<K,V> containing(Map<K, V> allItems) {
+        IsMap<K,V> matcher = new IsMap<K,V>(false);
+        for (Map.Entry<K,V> e : allItems.entrySet()) {
+            matcher.and(e.getKey(),e.getValue());
+        }
+        return matcher;
+    }
+
 	public static <K,V> IsMap<K,V> containing(K key, V value) {
 		return new IsMap<K,V>(false).and(key, value);
 	}
